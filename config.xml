@@ -5,8 +5,8 @@
         version   = "1.0.19">
 		
 		
-    <name>دندانپزشکی پارسه</name>
-    <description>دندانپزشکی پارسه</description>
+    <name>تست سایبرین</name>
+    <description>تست</description>
     <author href="http://smgroup.ir" email="info@smgroup.ir">Sorush Mehr Rezvan</author>
     <preference name="permissions"                value="none"/>
 
