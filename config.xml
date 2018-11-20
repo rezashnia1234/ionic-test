@@ -68,6 +68,8 @@
 	
 	<plugin spec="https://github.com/whiteoctober/cordova-plugin-app-version.git" source="git" />
 	<plugin name="phonegap-plugin-barcodescanner" />
+	<plugin spec="https://github.com/apache/cordova-plugin-camera.git" source="git" />
+	<plugin spec="https://github.com/nordnet/cordova-hot-code-push.git" source="git" />
 
 	
 	
