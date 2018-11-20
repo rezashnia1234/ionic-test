@@ -62,10 +62,7 @@
 	
 	<!-- Third party plugins -->
 	<preference name="android-build-tool" value="gradle" />
-	<plugin name="phonegap-plugin-push" spec="~1.9.1" source="npm">
-		<param name="SENDER_ID" value="804625540618" />
-	</plugin>
-	
+
 	<plugin spec="https://github.com/whiteoctober/cordova-plugin-app-version.git" source="git" />
 	<plugin name="phonegap-plugin-barcodescanner" />
 	<plugin spec="https://github.com/apache/cordova-plugin-camera.git" source="git" />
