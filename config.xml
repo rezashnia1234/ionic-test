@@ -78,6 +78,7 @@
 	<plugin spec="https://github.com/homerours/cordova-music-controls-plugin.git" source="git" />
 	<plugin spec="https://github.com/vstirbu/PromisesPlugin.git" source="git" />
 	<plugin spec="https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git" source="git" />
+	<plugin spec="https://github.com/ionic-team/cordova-plugin-ionic-webview.git" source="git" />
 
 	
 	
