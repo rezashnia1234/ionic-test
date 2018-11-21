@@ -68,8 +68,8 @@
 	<plugin spec="https://github.com/apache/cordova-plugin-camera.git" source="git" />
 	<plugin spec="https://github.com/nordnet/cordova-hot-code-push.git" source="git" />
 	<plugin spec="https://github.com/ihadeed/cordova-clipboard.git" source="git" />
-	<!-- <plugin spec="https://github.com/cowbell/cordova-plugin-geofence.git" source="git" /> -->
-	<!-- <preference name="swift-version" value="2.3" /> -->
+	<plugin spec="https://github.com/cowbell/cordova-plugin-geofence.git" source="git" />
+	<preference name="swift-version" value="2.3" />
 
 
 	<!-- <plugin spec="https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin.git" source="git" /> -->
