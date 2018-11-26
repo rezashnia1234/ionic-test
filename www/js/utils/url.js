@@ -11,7 +11,7 @@ if (typeof IS_PREVIEW === 'undefined' ||
     (typeof IS_PREVIEW !== 'undefined' && IS_PREVIEW !== true)) {
     PROTOCOL = 'http://';
     DOMAIN = 'http://faraapp.com';
-    APP_KEY = '5b8f8f43c2aac';
+    APP_KEY = '5b961da56053d';
     BASE_PATH = '/'+APP_KEY;
 }
 
