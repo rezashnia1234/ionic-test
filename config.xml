@@ -87,17 +87,6 @@
 	<plugin spec="https://github.com/apache/cordova-plugin-statusbar.git" source="git" />
 	<preference name="StatusBarOverlaysWebView"			value="false" />
 	<preference name="StatusBarBackgroundColor" value="#141D1A" />
-    <edit-config file="*-Info.plist" mode="overwrite" platform="ios" target="UIStatusBarHidden">
-        <true />
-    </edit-config>
-    <edit-config file="*-Info.plist" mode="overwrite" platform="ios" target="UIViewControllerBasedStatusBarAppearance">
-        <false />
-    </edit-config>
-	<edit-config file="*-Info.plist" mode="overwrite" platform="ios" target="UIBackgroundModes">
-		<array>
-			<string>audio</string>
-		</array>
-	</edit-config>
 
 
     <!-- Define app icon      -->
@@ -146,6 +135,62 @@
         <splash src="res/screen/ios/Default@2x~ipad~anyany.png"/>
         <splash src="res/screen/ios/Default@2x~ipad~comany.png"/>
 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<edit-config file="*-Info.plist" mode="overwrite" target="UIStatusBarHidden">
+			<true />
+		</edit-config>
+		<edit-config file="*-Info.plist" mode="overwrite" target="UIViewControllerBasedStatusBarAppearance">
+			<false />
+		</edit-config>
+		<edit-config file="*-Info.plist" mode="overwrite" target="UIBackgroundModes">
+			<array>
+				<string>audio</string>
+			</array>
+		</edit-config>
+
+
+		<edit-config file="*-Info.plist" mode="overwrite" parent="NSLocationWhenInUseUsageDescription">
+		    <string>Use the GPS for live navigation</string>
+		</edit-config>
+
+		<edit-config file="*-Info.plist" mode="overwrite" parent="NSCalendarsUsageDescription">
+		    <string>Be notified of the App events</string>
+		</edit-config>
+
+		<edit-config file="*-Info.plist" mode="overwrite" parent="NSContactsUsageDescription">
+		    <string>Share content with your contacts</string>
+		</edit-config>
+
+		<edit-config file="*-Info.plist" mode="overwrite" parent="NSMotionUsageDescription">
+		   <string>Smart navigation with TaxiRide and other nice features</string>
+		</edit-config>
+
+		<edit-config file="*-Info.plist" mode="overwrite" parent="NFCReaderUsageDescription">
+		    <string>Allow NFC Tag enabled features</string>
+		</edit-config>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
     </platform>
 
 	<allow-navigation href="*" />
@@ -156,7 +201,8 @@
 	<allow-intent href="geo:*" />
 	<allow-intent href="mailto:*" />
 	<allow-intent href="maps:*" />
-	
+	<allow-intent href="itms:*" />
+	<allow-intent href="itms-apps:*" />
 
 </widget>
 
